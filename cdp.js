@@ -1,7 +1,8 @@
 'use strict'
 
 //Variables de entorno
-require('./config/twitch').config();
+require('dotenv').config();
+
 
 let mongoose = require('mongoose');
 let Colorizer = require('./utils/logColorizer');
@@ -43,8 +44,6 @@ if(Config.mongoDB == ''){
 
 //A partir de este punto se entiende que config.js está cargado y bien configurado
 let app = require('./app');
-
-
 
 Colorizer.ok("Connecting with " + Config.mongoIP + ":" + Config.mongoPort + "/" + Config.mongoDB ,true);
 mongoose.Promise = global.Promise;
