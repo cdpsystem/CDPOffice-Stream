@@ -1,4 +1,5 @@
 const Colorizer = require('../../utils/logColorizer');
+let oth2 = require('simple-oauth2');
 
 Colorizer.ok("Controller oauth2 Loaded");
 

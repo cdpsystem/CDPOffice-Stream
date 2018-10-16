@@ -1,5 +1,8 @@
 'use strict'
 
+//Variables de entorno
+require('./config/twitch').config();
+
 let mongoose = require('mongoose');
 let Colorizer = require('./utils/logColorizer');
 let Clear = require('clear');
