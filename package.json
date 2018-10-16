@@ -1,0 +1,23 @@
+{
+  "name": "cdpoffice-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cdp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon cdp.js"
+  },
+  "author": "Cristian Diaz Prado",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "clear": "^0.1.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "simple-oauth2": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
